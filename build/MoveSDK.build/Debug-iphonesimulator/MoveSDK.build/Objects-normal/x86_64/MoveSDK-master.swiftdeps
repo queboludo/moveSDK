@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
+options: "8e151398db30866812416df90e4a8940"
+build_time: [1511542433, 592264000]
+inputs:
+  "/Users/canozankusseven/Desktop/MoveSDK/MoveView.swift": [1511542428, 0]
+  "/Users/canozankusseven/Desktop/MoveSDK/MoveSDK.swift": [1511536746, 0]

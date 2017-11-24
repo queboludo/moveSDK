@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/canozankusseven/Library/Developer/Xcode/DerivedData/MoveSDK-bzttuexbvioadrbvjksyejjomfdt/Build/Products/Debug-iphonesimulator/MoveSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MoveSDK-Swift.h",
+          'external-contents': "/Users/canozankusseven/Library/Developer/Xcode/DerivedData/MoveSDK-bzttuexbvioadrbvjksyejjomfdt/Build/Products/Debug-iphonesimulator/MoveSDK.framework/Headers/MoveSDK-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/canozankusseven/Library/Developer/Xcode/DerivedData/MoveSDK-bzttuexbvioadrbvjksyejjomfdt/Build/Products/Debug-iphonesimulator/MoveSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/canozankusseven/Desktop/MoveSDK/build/MoveSDK.build/Debug-iphonesimulator/MoveSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

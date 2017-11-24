@@ -1,0 +1,1085 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MoveSDKGestures"
+provides-nominal:
+- "7MoveSDK0A11SDKGesturesC"
+provides-member:
+- ["7MoveSDK0A11SDKGesturesC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "AVAudioSession"
+- !private "AVAudioSessionCategoryPlayback"
+- !private "AVAudioSessionPortDescription"
+- !private "AVAudioSessionPortHeadphones"
+- !private "AVAudioSessionRouteDescription"
+- !private "AVCaptureDevice"
+- !private "AVMediaType"
+- "AssignmentPrecedence"
+- !private "AudioServicesPlayAlertSound"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- !private "CGFloat"
+- !private "Calendar"
+- "CastingPrecedence"
+- !private "DateFormatter"
+- "Dictionary"
+- "Double"
+- !private "EKAlarm"
+- !private "EKEntityType"
+- !private "EKEvent"
+- !private "EKEventStore"
+- !private "FileAttributeKey"
+- !private "FileManager"
+- !private "Float"
+- "MoveSDKGestures"
+- !private "NSError"
+- !private "NSNumber"
+- "NSObject"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "ProcessInfo"
+- "String"
+- !private "StringLiteralType"
+- !private "SystemSoundID"
+- !private "UIDevice"
+- !private "UIScreen"
+- "UnicodeScalarType"
+- !private "kSystemSoundID_Vibrate"
+- !private "print"
+depends-member:
+- !private ["So14AVAudioSessionC", "currentRoute"]
+- !private ["So14AVAudioSessionC", "outputVolume"]
+- !private ["So14AVAudioSessionC", "setActive"]
+- !private ["So14AVAudioSessionC", "setCategory"]
+- !private ["So14AVAudioSessionC", "sharedInstance"]
+- !private ["So29AVAudioSessionPortDescriptionC", "portType"]
+- !private ["So30AVAudioSessionRouteDescriptionC", "outputs"]
+- !private ["So15AVCaptureDeviceC", "default"]
+- !private ["So15AVCaptureDeviceC", "hasTorch"]
+- !private ["So15AVCaptureDeviceC", "lockForConfiguration"]
+- !private ["So15AVCaptureDeviceC", "torchMode"]
+- !private ["So15AVCaptureDeviceC", "unlockForConfiguration"]
+- !private ["SC11AVMediaTypeV", "video"]
+- !private ["Sa", "last"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "AVAudioSession"]
+- !private ["s7CVarArgP", "AVAudioSessionCategoryPlayback"]
+- !private ["s7CVarArgP", "AVAudioSessionPortHeadphones"]
+- !private ["s7CVarArgP", "AVCaptureDevice"]
+- !private ["s7CVarArgP", "AVMediaType"]
+- !private ["s7CVarArgP", "AudioServicesPlayAlertSound"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "Calendar"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "EKAlarm"]
+- !private ["s7CVarArgP", "EKEntityType"]
+- !private ["s7CVarArgP", "EKEvent"]
+- !private ["s7CVarArgP", "EKEventStore"]
+- !private ["s7CVarArgP", "FileAttributeKey"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s7CVarArgP", "ProcessInfo"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "SystemSoundID"]
+- !private ["s7CVarArgP", "UIDevice"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "addAlarm"]
+- !private ["s7CVarArgP", "attributesOfFileSystem"]
+- !private ["s7CVarArgP", "batteryLevel"]
+- !private ["s7CVarArgP", "batteryState"]
+- !private ["s7CVarArgP", "brightness"]
+- !private ["s7CVarArgP", "calendar"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "currentRoute"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "defaultCalendarForNewEvents"]
+- !private ["s7CVarArgP", "endDate"]
+- !private ["s7CVarArgP", "hasTorch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "int64Value"]
+- !private ["s7CVarArgP", "isBatteryMonitoringEnabled"]
+- !private ["s7CVarArgP", "isLowPowerModeEnabled"]
+- !private ["s7CVarArgP", "kSystemSoundID_Vibrate"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "localizedModel"]
+- !private ["s7CVarArgP", "lockForConfiguration"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "notes"]
+- !private ["s7CVarArgP", "outputVolume"]
+- !private ["s7CVarArgP", "outputs"]
+- !private ["s7CVarArgP", "portType"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "requestAccess"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "setActive"]
+- !private ["s7CVarArgP", "setCategory"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "startDate"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "systemVersion"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "torchMode"]
+- !private ["s7CVarArgP", "unlockForConfiguration"]
+- ["s7CVarArgP", ""]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAudioSession"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAudioSessionCategoryPlayback"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAudioSessionPortHeadphones"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "AVMediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "AudioServicesPlayAlertSound"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "Calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "EKAlarm"]
+- !private ["s28CustomDebugStringConvertibleP", "EKEntityType"]
+- !private ["s28CustomDebugStringConvertibleP", "EKEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "EKEventStore"]
+- !private ["s28CustomDebugStringConvertibleP", "FileAttributeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s28CustomDebugStringConvertibleP", "ProcessInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "SystemSoundID"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "addAlarm"]
+- !private ["s28CustomDebugStringConvertibleP", "attributesOfFileSystem"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryState"]
+- !private ["s28CustomDebugStringConvertibleP", "brightness"]
+- !private ["s28CustomDebugStringConvertibleP", "calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "currentRoute"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultCalendarForNewEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "endDate"]
+- !private ["s28CustomDebugStringConvertibleP", "hasTorch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "isBatteryMonitoringEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "isLowPowerModeEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "kSystemSoundID_Vibrate"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedModel"]
+- !private ["s28CustomDebugStringConvertibleP", "lockForConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "notes"]
+- !private ["s28CustomDebugStringConvertibleP", "outputVolume"]
+- !private ["s28CustomDebugStringConvertibleP", "outputs"]
+- !private ["s28CustomDebugStringConvertibleP", "portType"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAccess"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "setActive"]
+- !private ["s28CustomDebugStringConvertibleP", "setCategory"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "startDate"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "systemVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "torchMode"]
+- !private ["s28CustomDebugStringConvertibleP", "unlockForConfiguration"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "AVAudioSession"]
+- !private ["s23CustomStringConvertibleP", "AVAudioSessionCategoryPlayback"]
+- !private ["s23CustomStringConvertibleP", "AVAudioSessionPortHeadphones"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDevice"]
+- !private ["s23CustomStringConvertibleP", "AVMediaType"]
+- !private ["s23CustomStringConvertibleP", "AudioServicesPlayAlertSound"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Calendar"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "EKAlarm"]
+- !private ["s23CustomStringConvertibleP", "EKEntityType"]
+- !private ["s23CustomStringConvertibleP", "EKEvent"]
+- !private ["s23CustomStringConvertibleP", "EKEventStore"]
+- !private ["s23CustomStringConvertibleP", "FileAttributeKey"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s23CustomStringConvertibleP", "ProcessInfo"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "SystemSoundID"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAlarm"]
+- !private ["s23CustomStringConvertibleP", "attributesOfFileSystem"]
+- !private ["s23CustomStringConvertibleP", "batteryLevel"]
+- !private ["s23CustomStringConvertibleP", "batteryState"]
+- !private ["s23CustomStringConvertibleP", "brightness"]
+- !private ["s23CustomStringConvertibleP", "calendar"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "currentRoute"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "defaultCalendarForNewEvents"]
+- !private ["s23CustomStringConvertibleP", "endDate"]
+- !private ["s23CustomStringConvertibleP", "hasTorch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int64Value"]
+- !private ["s23CustomStringConvertibleP", "isBatteryMonitoringEnabled"]
+- !private ["s23CustomStringConvertibleP", "isLowPowerModeEnabled"]
+- !private ["s23CustomStringConvertibleP", "kSystemSoundID_Vibrate"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "localizedModel"]
+- !private ["s23CustomStringConvertibleP", "lockForConfiguration"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "notes"]
+- !private ["s23CustomStringConvertibleP", "outputVolume"]
+- !private ["s23CustomStringConvertibleP", "outputs"]
+- !private ["s23CustomStringConvertibleP", "portType"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "requestAccess"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "setActive"]
+- !private ["s23CustomStringConvertibleP", "setCategory"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "startDate"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "systemVersion"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "torchMode"]
+- !private ["s23CustomStringConvertibleP", "unlockForConfiguration"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["So13DateFormatterC", "calendar"]
+- !private ["So13DateFormatterC", "date"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "current"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["Sd", "init"]
+- !private ["So7EKAlarmC", "init"]
+- !private ["So14EKCalendarItemC", "addAlarm"]
+- !private ["So14EKCalendarItemC", "calendar"]
+- !private ["So14EKCalendarItemC", "endDate"]
+- !private ["So14EKCalendarItemC", "init"]
+- !private ["So14EKCalendarItemC", "notes"]
+- !private ["So14EKCalendarItemC", "startDate"]
+- !private ["So14EKCalendarItemC", "title"]
+- !private ["SC12EKEntityTypeO", "event"]
+- !private ["So7EKEventC", "addAlarm"]
+- !private ["So7EKEventC", "calendar"]
+- !private ["So7EKEventC", "endDate"]
+- !private ["So7EKEventC", "init"]
+- !private ["So7EKEventC", "notes"]
+- !private ["So7EKEventC", "startDate"]
+- !private ["So7EKEventC", "title"]
+- !private ["So12EKEventStoreC", "defaultCalendarForNewEvents"]
+- !private ["So12EKEventStoreC", "init"]
+- !private ["So12EKEventStoreC", "requestAccess"]
+- !private ["So12EKEventStoreC", "save"]
+- !private ["So8EKObjectC", "addAlarm"]
+- !private ["So8EKObjectC", "calendar"]
+- !private ["So8EKObjectC", "endDate"]
+- !private ["So8EKObjectC", "init"]
+- !private ["So8EKObjectC", "notes"]
+- !private ["So8EKObjectC", "startDate"]
+- !private ["So8EKObjectC", "title"]
+- !private ["SC6EKSpanO", "thisEvent"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "current"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "AVAudioSession"]
+- !private ["s9EquatableP", "AVAudioSessionCategoryPlayback"]
+- !private ["s9EquatableP", "AVAudioSessionPortHeadphones"]
+- !private ["s9EquatableP", "AVCaptureDevice"]
+- !private ["s9EquatableP", "AVMediaType"]
+- !private ["s9EquatableP", "AudioServicesPlayAlertSound"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "Calendar"]
+- !private ["s9EquatableP", "DateFormatter"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "EKAlarm"]
+- !private ["s9EquatableP", "EKEntityType"]
+- !private ["s9EquatableP", "EKEvent"]
+- !private ["s9EquatableP", "EKEventStore"]
+- !private ["s9EquatableP", "FileAttributeKey"]
+- !private ["s9EquatableP", "FileManager"]
+- !private ["s9EquatableP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s9EquatableP", "ProcessInfo"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "SystemSoundID"]
+- !private ["s9EquatableP", "UIDevice"]
+- !private ["s9EquatableP", "UIScreen"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAlarm"]
+- !private ["s9EquatableP", "attributesOfFileSystem"]
+- !private ["s9EquatableP", "batteryLevel"]
+- !private ["s9EquatableP", "batteryState"]
+- !private ["s9EquatableP", "brightness"]
+- !private ["s9EquatableP", "calendar"]
+- !private ["s9EquatableP", "charging"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "currentRoute"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "defaultCalendarForNewEvents"]
+- !private ["s9EquatableP", "documentDirectory"]
+- !private ["s9EquatableP", "endDate"]
+- !private ["s9EquatableP", "event"]
+- !private ["s9EquatableP", "hasTorch"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "int64Value"]
+- !private ["s9EquatableP", "isBatteryMonitoringEnabled"]
+- !private ["s9EquatableP", "isLowPowerModeEnabled"]
+- !private ["s9EquatableP", "kSystemSoundID_Vibrate"]
+- !private ["s9EquatableP", "localizedModel"]
+- !private ["s9EquatableP", "lockForConfiguration"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "notes"]
+- !private ["s9EquatableP", "off"]
+- !private ["s9EquatableP", "on"]
+- !private ["s9EquatableP", "outputVolume"]
+- !private ["s9EquatableP", "outputs"]
+- !private ["s9EquatableP", "portType"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "processInfo"]
+- !private ["s9EquatableP", "requestAccess"]
+- !private ["s9EquatableP", "save"]
+- !private ["s9EquatableP", "setActive"]
+- !private ["s9EquatableP", "setCategory"]
+- !private ["s9EquatableP", "sharedInstance"]
+- !private ["s9EquatableP", "startDate"]
+- !private ["s9EquatableP", "systemFreeSize"]
+- !private ["s9EquatableP", "systemVersion"]
+- !private ["s9EquatableP", "thisEvent"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "torchMode"]
+- !private ["s9EquatableP", "unlockForConfiguration"]
+- !private ["s9EquatableP", "unplugged"]
+- !private ["s9EquatableP", "userDomainMask"]
+- !private ["s9EquatableP", "video"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SC16FileAttributeKeyV", "systemFreeSize"]
+- !private ["So11FileManagerC", "attributesOfFileSystem"]
+- !private ["So11FileManagerC", "default"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["So9FormatterC", "calendar"]
+- !private ["So9FormatterC", "date"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["s8HashableP", "AVAudioSession"]
+- !private ["s8HashableP", "AVAudioSessionCategoryPlayback"]
+- !private ["s8HashableP", "AVAudioSessionPortHeadphones"]
+- !private ["s8HashableP", "AVCaptureDevice"]
+- !private ["s8HashableP", "AVMediaType"]
+- !private ["s8HashableP", "AudioServicesPlayAlertSound"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "Calendar"]
+- !private ["s8HashableP", "DateFormatter"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "EKAlarm"]
+- !private ["s8HashableP", "EKEntityType"]
+- !private ["s8HashableP", "EKEvent"]
+- !private ["s8HashableP", "EKEventStore"]
+- !private ["s8HashableP", "FileAttributeKey"]
+- !private ["s8HashableP", "FileManager"]
+- !private ["s8HashableP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s8HashableP", "ProcessInfo"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "SystemSoundID"]
+- !private ["s8HashableP", "UIDevice"]
+- !private ["s8HashableP", "UIScreen"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAlarm"]
+- !private ["s8HashableP", "attributesOfFileSystem"]
+- !private ["s8HashableP", "batteryLevel"]
+- !private ["s8HashableP", "batteryState"]
+- !private ["s8HashableP", "brightness"]
+- !private ["s8HashableP", "calendar"]
+- !private ["s8HashableP", "charging"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "currentRoute"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "defaultCalendarForNewEvents"]
+- !private ["s8HashableP", "documentDirectory"]
+- !private ["s8HashableP", "endDate"]
+- !private ["s8HashableP", "event"]
+- !private ["s8HashableP", "hasTorch"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "int64Value"]
+- !private ["s8HashableP", "isBatteryMonitoringEnabled"]
+- !private ["s8HashableP", "isLowPowerModeEnabled"]
+- !private ["s8HashableP", "kSystemSoundID_Vibrate"]
+- !private ["s8HashableP", "localizedModel"]
+- !private ["s8HashableP", "lockForConfiguration"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "notes"]
+- !private ["s8HashableP", "off"]
+- !private ["s8HashableP", "on"]
+- !private ["s8HashableP", "outputVolume"]
+- !private ["s8HashableP", "outputs"]
+- !private ["s8HashableP", "portType"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "processInfo"]
+- !private ["s8HashableP", "requestAccess"]
+- !private ["s8HashableP", "save"]
+- !private ["s8HashableP", "setActive"]
+- !private ["s8HashableP", "setCategory"]
+- !private ["s8HashableP", "sharedInstance"]
+- !private ["s8HashableP", "startDate"]
+- !private ["s8HashableP", "systemFreeSize"]
+- !private ["s8HashableP", "systemVersion"]
+- !private ["s8HashableP", "thisEvent"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "torchMode"]
+- !private ["s8HashableP", "unlockForConfiguration"]
+- !private ["s8HashableP", "unplugged"]
+- !private ["s8HashableP", "video"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVAudioSession"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVAudioSessionCategoryPlayback"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVAudioSessionPortDescription"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVAudioSessionPortHeadphones"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVAudioSessionRouteDescription"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVCaptureDevice"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AVMediaType"]
+- !private ["7MoveSDK0A11SDKGesturesC", "AudioServicesPlayAlertSound"]
+- !private ["7MoveSDK0A11SDKGesturesC", "Bool"]
+- !private ["7MoveSDK0A11SDKGesturesC", "CGFloat"]
+- !private ["7MoveSDK0A11SDKGesturesC", "Calendar"]
+- !private ["7MoveSDK0A11SDKGesturesC", "DateFormatter"]
+- ["7MoveSDK0A11SDKGesturesC", "Dictionary"]
+- ["7MoveSDK0A11SDKGesturesC", "Double"]
+- !private ["7MoveSDK0A11SDKGesturesC", "EKAlarm"]
+- !private ["7MoveSDK0A11SDKGesturesC", "EKEntityType"]
+- !private ["7MoveSDK0A11SDKGesturesC", "EKEvent"]
+- !private ["7MoveSDK0A11SDKGesturesC", "EKEventStore"]
+- !private ["7MoveSDK0A11SDKGesturesC", "FileAttributeKey"]
+- !private ["7MoveSDK0A11SDKGesturesC", "FileManager"]
+- !private ["7MoveSDK0A11SDKGesturesC", "Float"]
+- !private ["7MoveSDK0A11SDKGesturesC", "NSError"]
+- !private ["7MoveSDK0A11SDKGesturesC", "NSNumber"]
+- !private ["7MoveSDK0A11SDKGesturesC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["7MoveSDK0A11SDKGesturesC", "ProcessInfo"]
+- ["7MoveSDK0A11SDKGesturesC", "String"]
+- !private ["7MoveSDK0A11SDKGesturesC", "SystemSoundID"]
+- !private ["7MoveSDK0A11SDKGesturesC", "UIDevice"]
+- !private ["7MoveSDK0A11SDKGesturesC", "UIScreen"]
+- ["7MoveSDK0A11SDKGesturesC", "createEvent"]
+- ["7MoveSDK0A11SDKGesturesC", "deinit"]
+- ["7MoveSDK0A11SDKGesturesC", "getBatteryInformation"]
+- ["7MoveSDK0A11SDKGesturesC", "getBrightness"]
+- ["7MoveSDK0A11SDKGesturesC", "getDeviceInformation"]
+- ["7MoveSDK0A11SDKGesturesC", "getDiskAvailable"]
+- ["7MoveSDK0A11SDKGesturesC", "getEarPhoneStatus"]
+- ["7MoveSDK0A11SDKGesturesC", "getVolumeLevel"]
+- ["7MoveSDK0A11SDKGesturesC", "init"]
+- !private ["7MoveSDK0A11SDKGesturesC", "kSystemSoundID_Vibrate"]
+- !private ["7MoveSDK0A11SDKGesturesC", "print"]
+- ["7MoveSDK0A11SDKGesturesC", "setBrightness"]
+- ["7MoveSDK0A11SDKGesturesC", "turnOffFlash"]
+- ["7MoveSDK0A11SDKGesturesC", "turnOnFlash"]
+- ["7MoveSDK0A11SDKGesturesC", "vibrate"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["So8NSCodingP", "calendar"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "int64Value"]
+- !private ["So9NSCopyingP", "calendar"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "int64Value"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSNumberC", "int64Value"]
+- !private ["So8NSObjectC", "AVAudioSession"]
+- !private ["So8NSObjectC", "AVAudioSessionCategoryPlayback"]
+- !private ["So8NSObjectC", "AVAudioSessionPortDescription"]
+- !private ["So8NSObjectC", "AVAudioSessionPortHeadphones"]
+- !private ["So8NSObjectC", "AVAudioSessionRouteDescription"]
+- !private ["So8NSObjectC", "AVCaptureDevice"]
+- !private ["So8NSObjectC", "AVMediaType"]
+- !private ["So8NSObjectC", "AudioServicesPlayAlertSound"]
+- !private ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Calendar"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Dictionary"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "EKAlarm"]
+- !private ["So8NSObjectC", "EKEntityType"]
+- !private ["So8NSObjectC", "EKEvent"]
+- !private ["So8NSObjectC", "EKEventStore"]
+- !private ["So8NSObjectC", "FileAttributeKey"]
+- !private ["So8NSObjectC", "FileManager"]
+- !private ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["So8NSObjectC", "ProcessInfo"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "SystemSoundID"]
+- !private ["So8NSObjectC", "UIDevice"]
+- !private ["So8NSObjectC", "UIScreen"]
+- !private ["So8NSObjectC", "addAlarm"]
+- !private ["So8NSObjectC", "attributesOfFileSystem"]
+- !private ["So8NSObjectC", "batteryLevel"]
+- !private ["So8NSObjectC", "batteryState"]
+- !private ["So8NSObjectC", "brightness"]
+- !private ["So8NSObjectC", "calendar"]
+- ["So8NSObjectC", "createEvent"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "currentRoute"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "defaultCalendarForNewEvents"]
+- !private ["So8NSObjectC", "endDate"]
+- ["So8NSObjectC", "getBatteryInformation"]
+- ["So8NSObjectC", "getBrightness"]
+- ["So8NSObjectC", "getDeviceInformation"]
+- ["So8NSObjectC", "getDiskAvailable"]
+- ["So8NSObjectC", "getEarPhoneStatus"]
+- ["So8NSObjectC", "getVolumeLevel"]
+- !private ["So8NSObjectC", "hasTorch"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "int64Value"]
+- !private ["So8NSObjectC", "isBatteryMonitoringEnabled"]
+- !private ["So8NSObjectC", "isLowPowerModeEnabled"]
+- !private ["So8NSObjectC", "kSystemSoundID_Vibrate"]
+- !private ["So8NSObjectC", "localizedModel"]
+- !private ["So8NSObjectC", "lockForConfiguration"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "notes"]
+- !private ["So8NSObjectC", "outputVolume"]
+- !private ["So8NSObjectC", "outputs"]
+- !private ["So8NSObjectC", "portType"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectC", "requestAccess"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "setActive"]
+- ["So8NSObjectC", "setBrightness"]
+- !private ["So8NSObjectC", "setCategory"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "startDate"]
+- !private ["So8NSObjectC", "systemVersion"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "torchMode"]
+- ["So8NSObjectC", "turnOffFlash"]
+- ["So8NSObjectC", "turnOnFlash"]
+- !private ["So8NSObjectC", "unlockForConfiguration"]
+- ["So8NSObjectC", "vibrate"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "AVAudioSession"]
+- !private ["So16NSObjectProtocolP", "AVAudioSessionCategoryPlayback"]
+- !private ["So16NSObjectProtocolP", "AVAudioSessionPortHeadphones"]
+- !private ["So16NSObjectProtocolP", "AVCaptureDevice"]
+- !private ["So16NSObjectProtocolP", "AVMediaType"]
+- !private ["So16NSObjectProtocolP", "AudioServicesPlayAlertSound"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "Calendar"]
+- !private ["So16NSObjectProtocolP", "DateFormatter"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "EKAlarm"]
+- !private ["So16NSObjectProtocolP", "EKEntityType"]
+- !private ["So16NSObjectProtocolP", "EKEvent"]
+- !private ["So16NSObjectProtocolP", "EKEventStore"]
+- !private ["So16NSObjectProtocolP", "FileAttributeKey"]
+- !private ["So16NSObjectProtocolP", "FileManager"]
+- !private ["So16NSObjectProtocolP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["So16NSObjectProtocolP", "ProcessInfo"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "SystemSoundID"]
+- !private ["So16NSObjectProtocolP", "UIDevice"]
+- !private ["So16NSObjectProtocolP", "UIScreen"]
+- !private ["So16NSObjectProtocolP", "addAlarm"]
+- !private ["So16NSObjectProtocolP", "attributesOfFileSystem"]
+- !private ["So16NSObjectProtocolP", "batteryLevel"]
+- !private ["So16NSObjectProtocolP", "batteryState"]
+- !private ["So16NSObjectProtocolP", "brightness"]
+- !private ["So16NSObjectProtocolP", "calendar"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "currentRoute"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "defaultCalendarForNewEvents"]
+- !private ["So16NSObjectProtocolP", "endDate"]
+- !private ["So16NSObjectProtocolP", "hasTorch"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "int64Value"]
+- !private ["So16NSObjectProtocolP", "isBatteryMonitoringEnabled"]
+- !private ["So16NSObjectProtocolP", "isLowPowerModeEnabled"]
+- !private ["So16NSObjectProtocolP", "kSystemSoundID_Vibrate"]
+- !private ["So16NSObjectProtocolP", "localizedModel"]
+- !private ["So16NSObjectProtocolP", "lockForConfiguration"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "notes"]
+- !private ["So16NSObjectProtocolP", "outputVolume"]
+- !private ["So16NSObjectProtocolP", "outputs"]
+- !private ["So16NSObjectProtocolP", "portType"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "processInfo"]
+- !private ["So16NSObjectProtocolP", "requestAccess"]
+- !private ["So16NSObjectProtocolP", "save"]
+- !private ["So16NSObjectProtocolP", "setActive"]
+- !private ["So16NSObjectProtocolP", "setCategory"]
+- !private ["So16NSObjectProtocolP", "sharedInstance"]
+- !private ["So16NSObjectProtocolP", "startDate"]
+- !private ["So16NSObjectProtocolP", "systemVersion"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "torchMode"]
+- !private ["So16NSObjectProtocolP", "unlockForConfiguration"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "int64Value"]
+- !private ["So8NSStringC", "init"]
+- !private ["So7NSValueC", "int64Value"]
+- !private ["s7NumericP", "init"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["So11ProcessInfoC", "isLowPowerModeEnabled"]
+- !private ["So11ProcessInfoC", "processInfo"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s16RawRepresentableP", "charging"]
+- !private ["s16RawRepresentableP", "documentDirectory"]
+- !private ["s16RawRepresentableP", "event"]
+- !private ["s16RawRepresentableP", "off"]
+- !private ["s16RawRepresentableP", "on"]
+- !private ["s16RawRepresentableP", "systemFreeSize"]
+- !private ["s16RawRepresentableP", "thisEvent"]
+- !private ["s16RawRepresentableP", "unplugged"]
+- !private ["s16RawRepresentableP", "userDomainMask"]
+- !private ["s16RawRepresentableP", "video"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
+- !private ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So15AVCaptureDeviceC9TorchModeO", "off"]
+- !private ["So15AVCaptureDeviceC9TorchModeO", "on"]
+- !private ["So8UIDeviceC", "batteryLevel"]
+- !private ["So8UIDeviceC", "batteryState"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "isBatteryMonitoringEnabled"]
+- !private ["So8UIDeviceC", "localizedModel"]
+- !private ["So8UIDeviceC", "name"]
+- !private ["So8UIDeviceC", "systemVersion"]
+- !private ["SC20UIDeviceBatteryStateO", "charging"]
+- !private ["SC20UIDeviceBatteryStateO", "unplugged"]
+- !private ["So8UIScreenC", "brightness"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So18UITraitEnvironmentP", "brightness"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["s6UInt32V", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "last"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int64Value"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "last"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "last"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioSessionCategoryPlayback"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioSessionPortHeadphones"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVMediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AudioServicesPlayAlertSound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Calendar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EKAlarm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EKEntityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EKEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EKEventStore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileAttributeKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProcessInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SystemSoundID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAlarm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributesOfFileSystem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "brightness"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calendar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentRoute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultCalendarForNewEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasTorch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isBatteryMonitoringEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isLowPowerModeEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kSystemSoundID_Vibrate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockForConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputVolume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "portType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setCategory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "torchMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlockForConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation14_MutableBoxingP", "current"]
+- !private ["s17_MutableIndexableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "systemFreeSize"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s22_RandomAccessIndexableP", "last"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "last"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "systemFreeSize"]
+- !private ["s20_SwiftNewtypeWrapperP", "video"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So14AVAudioSessionC"
+- !private "So29AVAudioSessionPortDescriptionC"
+- !private "So30AVAudioSessionRouteDescriptionC"
+- !private "So15AVCaptureDeviceC"
+- !private "SC11AVMediaTypeV"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So13DateFormatterC"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "Sd"
+- !private "So7EKAlarmC"
+- !private "So14EKCalendarItemC"
+- !private "SC12EKEntityTypeO"
+- !private "So7EKEventC"
+- !private "So12EKEventStoreC"
+- !private "So8EKObjectC"
+- !private "SC6EKSpanO"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SC16FileAttributeKeyV"
+- !private "So11FileManagerC"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "So9FormatterC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "7MoveSDK0A11SDKGesturesC"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So7NSValueC"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "So11ProcessInfoC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So11FileManagerC19SearchPathDirectoryO"
+- !private "So11FileManagerC20SearchPathDomainMaskV"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So15AVCaptureDeviceC9TorchModeO"
+- !private "So8UIDeviceC"
+- !private "SC20UIDeviceBatteryStateO"
+- !private "So8UIScreenC"
+- !private "So18UITraitEnvironmentP"
+- !private "s6UInt32V"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation14_MutableBoxingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAppInstallAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeContentAd.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAContentPlayhead.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAVPlayerContentPlayhead.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdNotificationSource.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdPodInfo.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdPlaybackInfo.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdsLoader.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAStreamManager.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdsManager.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdDisplayContainer.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdError.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/GoogleInteractiveMediaAds.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMASettings.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdsRenderingSettings.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAUiElements.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdEvent.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMACuepoint.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMACompanionAdSlot.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAStreamRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAVODStreamRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMALiveStreamRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAdsRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdChoicesView.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAVideoDisplay.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAAVPlayerVideoDisplay.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Headers/IMAPictureInPictureProxy.h"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleInteractiveMediaAds.framework/Modules/module.modulemap"
+- "/Users/canozankusseven/Desktop/MoveSDK/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/EventKit.framework/Headers/EventKit.apinotes"
+interface-hash: "21ae1a2a9799895f3b202b247337a16f"
