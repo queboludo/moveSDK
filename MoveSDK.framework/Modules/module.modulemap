@@ -1,0 +1,4 @@
+framework module MoveSDK {
+    header "MoveSDK-Swift.h"
+    requires objc
+}
